@@ -1,47 +1,49 @@
-1
-
-git init
+1 git init
 
 Inicializa um repositório Git local
 
-2
 
-git add . ou git add nome_do_arquivo
+2 git add . ou git add nome_do_arquivo
 
 Adiciona as alterações ao índice
 
-3
 
-git commit -m "Sua mensagem de commit"
+3 git commit -m "Sua mensagem de commit"
 
 Cria um commit com uma mensagem descritiva
 
-4
 
-git branch -M main
+4 git branch -M main
 
 Renomeia a branch principal (opcional)
 
-5
 
-git remote add origin URL_DO_REPOSITORIO
+5 git remote add origin URL_DO_REPOSITORIO
 
 Adiciona o repositório remoto como origem
 
-6
 
-git push -u origin main ou git push -u origin nome_da_sua_branch
+6 git push -u origin main ou git push -u origin nome_da_sua_branch
 
 Envia o código para o GitHub
 
-7
 
-Digite seu nome de usuário e senha do GitHub, se solicitado
+1 git checkout -b nome_da_branch
 
-Faça login no GitHub, se necessário
+Cria e muda para uma nova branch
 
-8
 
-Faça login no GitHub, se necessário
+2 git add . ou git add nome_do_arquivo
 
-As alterações devem aparecer no seu repositório no GitHub
+Adiciona as alterações ao índice
+
+
+3 git commit -m "Sua mensagem de commit"
+
+Cria um commit com uma mensagem descritiva
+
+
+4 git push origin nome_da_branch
+
+Envia o código para o GitHub na nova branch
+
